@@ -43,8 +43,15 @@ export function Navbar() {
           onClick={() => setOpen(false)}
           className="flex min-w-0 items-center gap-2"
         >
-          <div className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-gold/15 text-gold">
-            <span className="font-display text-lg font-bold">{site.brand.charAt(0)}</span>
+          <div className="grid h-10 w-10 shrink-0 place-items-center md:h-11 md:w-11">
+            <img
+              src="/logo.png"
+              alt={site.brand}
+              width={44}
+              height={44}
+              className="h-10 w-10 object-contain md:h-11 md:w-11"
+              draggable={false}
+            />
           </div>
           <div className="min-w-0 leading-tight">
             <div className="truncate font-display text-base text-paper-50 md:text-lg">{site.brand}</div>

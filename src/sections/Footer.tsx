@@ -7,8 +7,18 @@ export function Footer() {
       <div className="container-x py-14 md:py-16">
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-5">
-            <div className="font-display text-2xl text-paper-50">
-              {site.brand} <span className="text-gold">·</span> {site.tagline}
+            <div className="flex items-center gap-3">
+              <img
+                src="/logo.png"
+                alt=""
+                width={56}
+                height={56}
+                className="h-12 w-12 shrink-0 object-contain"
+                draggable={false}
+              />
+              <div className="font-display text-2xl text-paper-50">
+                {site.brand} <span className="text-gold">·</span> {site.tagline}
+              </div>
             </div>
             <p className="mt-3 max-w-sm text-sm leading-relaxed text-paper-200/60">
               Шаблон лендинга для юрбюро. Замените бренд, реквизиты и отзывы под конкретного адвоката. Не является
