@@ -6,3 +6,4 @@
 - Данные в `src/data/*.json`. Сборка: `npm run build` — успешно.
 - Порт dev: 5174 (чтобы не пересекаться с massagethai 5173).
 - Бренд в контенте: **Поможем** (`src/data/site.json`, `index.html`, README, логотип в шапке и favicon).
+- Инициализирован отдельный Git-репозиторий, первый коммит `3a1b4f6`, пуш на `https://github.com/issamoobic/law-landing` (ветка `master`).
